@@ -1,0 +1,14 @@
+{
+  "name": "a-quote-a-day",
+  "version": "1.0.0",
+  "description": "displays a quote a day",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "parthiban",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

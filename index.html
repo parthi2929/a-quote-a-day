@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <div align="center">
+            <h1 style="color:#1a1a1a" id="quote">
+            </h1>
+        </div>
+        <script>
+            var quoteArray=
+            [
+                "Wow, I did not know creating such an array in JS is easy",
+                "But JS is not very intuitive. Rules seem to be bent",
+                "Honestly I dont like JS caz I am a C# OOP guy",
+                "But what to do as Nodejs is built on JS",
+                "Lets try to learn some shit on JS"
+            ];
+
+            var randomIndex = Math.floor((Math.random()*5)+1);
+            document.getElementById("quote").innerHTML = quoteArray[randomIndex-1];
+        </script>
+    </body>
+</html>
