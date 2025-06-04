@@ -14,8 +14,10 @@
                 "Lets try to learn some shit on JS"
             ];
 
-            var randomIndex = Math.floor((Math.random()*5)+1);
-            document.getElementById("quote").innerHTML = quoteArray[randomIndex-1];
+            // Choose a random quote using the array's length so it works
+            // even if more quotes are added in the future
+            var randomIndex = Math.floor(Math.random() * quoteArray.length);
+            document.getElementById("quote").innerHTML = quoteArray[randomIndex];
         </script>
     </body>
 </html>
